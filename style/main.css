@@ -392,26 +392,26 @@ hr {
     z-index: 10;
     font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: url(http://www.github.com/shhrayaah/2048/tile-sets/clay/cookie.jpg);
+    background: url(http://imgur.com/djcPSm4);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: #f9f6f2 url(../tile-sets/clay/whisky.png);
+    background: #f9f6f2 url(http://i.imgur.com/OuhGlXN.png);
     background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
     color: #f9f6f2;
-    background: url(../tile-sets/clay/pizza.jpg); }
+    background: url(http://i.imgur.com/TgsbqFE.jpg); }
   .tile.tile-16 .tile-inner {
     color: #f9f6f2;
-    background: url(../tile-sets/clay/brave.jpg); }
+    background: url(http://i.imgur.com/cX4Dicl.jpg); }
   .tile.tile-32 .tile-inner {
     color: #f9f6f2;
-    background: #f67c5f url(../tile-sets/clay/charts2.jpg); }
+    background: #f67c5f url(http://i.imgur.com/V9sfOFV.jpg); }
   .tile.tile-64 .tile-inner {
     color: #f67c5f;
-    background: url(../tile-sets/clay/prince2.jpg); }
+    background: url(http://i.imgur.com/tjfUayS.jpg); }
   .tile.tile-128 .tile-inner {
-    background-image: url(../tile-sets/clay/wug4.jpg);
+    background-image: url(http://i.imgur.com/ikgSlUN.jpg);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -419,7 +419,7 @@ hr {
         font-size: 25px; } }
   .tile.tile-256 .tile-inner {
     background: #f9f6f2;
-    background: url(../tile-sets/clay/reddit.jpg)
+    background: url(http://i.imgur.com/Df43A3U.jpg)
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
@@ -427,21 +427,21 @@ hr {
         font-size: 25px; } }
   .tile.tile-512 .tile-inner {
     color: #f9f6f2;
-    background: url(../tile-sets/clay/coffee.jpg);
+    background: url(http://i.imgur.com/mxCfAvY.jpg);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
     font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
         font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    background: #f9f6f2 url(../tile-sets/clay/science.jpg);
+    background: #f9f6f2 url(http://i.imgur.com/VIVFil9.jpg);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
         font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    backgroun: #f9f6f2 url(../tile-sets/clay/kate2.png);
+    backgroun: #f9f6f2 url(http://i.imgur.com/gO3Dhaf.png);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
     font-size: 35px; }
     @media screen and (max-width: 520px) {
