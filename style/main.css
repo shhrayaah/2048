@@ -1,26 +1,14 @@
 @import url(fonts/clear-sans.css);
-@import url("http://fonts.googleapis.com/css?family=Source+Code+Pro:400,600,700");
 html, body {
   margin: 0;
   padding: 0;
-  background: #9cc2d2;
-  color: #354b59;
+  background: #faf8ef;
+  color: #776e65;
   font-family: "Clear Sans", "Helvetica Neue", Arial, sans-serif;
-  font-family: "Whitney SSm A","Whitney SSm B","Helvetica Neue",Helvetica,Arial,sans-serif;
   font-size: 18px; }
 
 body {
   margin: 80px 0; }
-
-p.learn {
-  margin-top: 20px;
-}
-
-span.tile-text {
-  line-height: 1.25;
-}
-
-
 
 input {
   display: inline-block;
@@ -60,8 +48,8 @@ input {
   clear: both; }
 
 h1.title {
-  font-size: 55px;
-  font-weight: medium;
+  font-size: 80px;
+  font-weight: bold;
   margin: 0;
   display: block;
   float: left; }
@@ -97,7 +85,7 @@ h1.title {
 .score-container, .best-container {
   position: relative;
   display: inline-block;
-  background: #0c92bf;
+  background: #bbada0;
   padding: 15px 25px;
   font-size: 25px;
   height: 25px;
@@ -145,7 +133,8 @@ p {
   line-height: 1.65; }
 
 a {
-  font-weight: medium;
+  color: #776e65;
+  font-weight: bold;
   text-decoration: underline;
   cursor: pointer; }
 
@@ -199,7 +188,7 @@ hr {
   100% {
     margin-top: 20%; } }
 .game-container {
-  margin-top: 20px;
+  margin-top: 40px;
   position: relative;
   padding: 15px;
   cursor: default;
@@ -210,7 +199,7 @@ hr {
   -ms-user-select: none;
   -ms-touch-action: none;
   touch-action: none;
-  background: #1e6477;
+  background: #bbada0;
   border-radius: 6px;
   width: 500px;
   height: 500px;
@@ -225,7 +214,7 @@ hr {
   right: 0;
   bottom: 0;
   left: 0;
-  background: rgba(150, 150, 150, 0.83);
+  background: rgba(238, 228, 218, 0.73);
   z-index: 100;
   padding-top: 40px;
   text-align: center;
@@ -397,101 +386,71 @@ hr {
   transition-property: transform; }
   .tile .tile-inner {
     border-radius: 3px;
-    background: #f5f5f5;
+    background: #eee4da;
     text-align: center;
     font-weight: bold;
     z-index: 10;
-    font-family: 'Source Code Pro', Courier;
-    font-size: 16px; 
-    color: #354b59;}
+    font-size: 55px; }
   .tile.tile-2 .tile-inner {
-    background: url('../tile-sets/udacity/2.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
+    background: url(../tile-sets/clay/cookie.png);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-4 .tile-inner {
-    background: url('../tile-sets/udacity/4.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
+    background: #f9f6f2 url(../tile-sets/clay/whisky.png);
+    background-size: cover;
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0), inset 0 0 0 1px rgba(255, 255, 255, 0); }
   .tile.tile-8 .tile-inner {
-    background: url('../tile-sets/udacity/8.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
-    font-weight: medium;
-    font-size: 11px;
-  }
+    color: #f9f6f2;
+    background: url(../tile-sets/clay/pizza.jpg); }
   .tile.tile-16 .tile-inner {
-    background: url('../tile-sets/udacity/16.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
-    font-weight: medium;
-    font-size: 10px;
-  }
+    color: #f9f6f2;
+    background: url(../tile-sets/clay/brave.jpg); }
   .tile.tile-32 .tile-inner {
-    background: url('../tile-sets/udacity/32.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
-    font-size: 14px;
-  }
+    color: #f9f6f2;
+    background: #f67c5f url(../tile-sets/clay/charts2.jpg); }
   .tile.tile-64 .tile-inner {
-    background: url('../tile-sets/udacity/64.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
-    font-size: 14px;
-
-  }
+    color: #f67c5f;
+    background: url(../tile-sets/clay/prince2.jpg); }
   .tile.tile-128 .tile-inner {
-    font-weight: medium;
-    background: url('../tile-sets/udacity/128.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
+    background-image: url(../tile-sets/clay/wug4.jpg);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.2381), inset 0 0 0 1px rgba(255, 255, 255, 0.14286);
-    font-size: 12px; }
+    font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-128 .tile-inner {
-        font-size: 12px; } }
+        font-size: 25px; } }
   .tile.tile-256 .tile-inner {
-    background: url('../tile-sets/udacity/256.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
+    background: #f9f6f2;
+    background: url(../tile-sets/clay/reddit.jpg)
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.31746), inset 0 0 0 1px rgba(255, 255, 255, 0.19048);
-    font-size: 14px; }
+    font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-256 .tile-inner {
-        font-size: 16px; } }
+        font-size: 25px; } }
   .tile.tile-512 .tile-inner {
-    background: url('../tile-sets/udacity/512.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
+    color: #f9f6f2;
+    background: url(../tile-sets/clay/coffee.jpg);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.39683), inset 0 0 0 1px rgba(255, 255, 255, 0.2381);
-    font-size: 13px; }
+    font-size: 45px; }
     @media screen and (max-width: 520px) {
       .tile.tile-512 .tile-inner {
-        font-size: 13px; } }
+        font-size: 25px; } }
   .tile.tile-1024 .tile-inner {
-    background: url('../tile-sets/udacity/1024.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
+    background: #f9f6f2 url(../tile-sets/clay/science.jpg);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.47619), inset 0 0 0 1px rgba(255, 255, 255, 0.28571);
-    font-size: 10px; }
+    font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-1024 .tile-inner {
-        font-size: 10px; } }
+        font-size: 15px; } }
   .tile.tile-2048 .tile-inner {
-    background: url('../tile-sets/udacity/2048.png');
-    background-size: 100%;
-    color: rgba(0,0,0,0);
+    backgroun: #f9f6f2 url(../tile-sets/clay/kate2.png);
     box-shadow: 0 0 30px 10px rgba(243, 215, 116, 0.55556), inset 0 0 0 1px rgba(255, 255, 255, 0.33333);
-    font-size: 10px; }
+    font-size: 35px; }
     @media screen and (max-width: 520px) {
       .tile.tile-2048 .tile-inner {
-        font-size: 10px; } }
+        font-size: 15px; } }
   .tile.tile-super .tile-inner {
     color: #f9f6f2;
     background: #3c3a32;
-    font-weight: medium;
-    font-size: 12px; }
+    font-size: 30px; }
     @media screen and (max-width: 520px) {
       .tile.tile-super .tile-inner {
         font-size: 10px; } }
@@ -594,20 +553,29 @@ hr {
   -moz-animation-fill-mode: backwards;
   animation-fill-mode: backwards; }
 
-.above-game {
-  margin-top: 10px;
-}
-
 .above-game:after {
   content: "";
   display: block;
   clear: both; }
 
 .game-intro {
-  margin-top: 5px;
   float: left;
-  line-height: 30px;
+  line-height: 42px;
   margin-bottom: 0; }
+
+.restart-button {
+  display: inline-block;
+  background: #8f7a66;
+  border-radius: 3px;
+  padding: 0 20px;
+  text-decoration: none;
+  color: #f9f6f2;
+  height: 40px;
+  line-height: 42px;
+  cursor: pointer;
+  display: block;
+  text-align: center;
+  float: right; }
 
 .game-explanation {
   margin-top: 50px; }
@@ -644,12 +612,12 @@ hr {
     margin-bottom: 10px; }
 
   .game-intro {
-    width: 100%;
+    width: 55%;
     display: block;
     box-sizing: border-box;
     line-height: 1.65; }
 
-  .restart-button, .retry-button {
+  .restart-button {
     width: 42%;
     padding: 0;
     display: block;
@@ -668,7 +636,7 @@ hr {
     -ms-user-select: none;
     -ms-touch-action: none;
     touch-action: none;
-    background: #1e6477;
+    background: #bbada0;
     border-radius: 6px;
     width: 280px;
     height: 280px;
@@ -960,57 +928,3 @@ hr {
         .btc-donate .address:after {
           left: 50%;
           bottom: 2px; } }
-a.learn, a.keep-playing-button {
-  background-color: #de8b3e;
-  text-decoration: none;
-  border: 1px solid;
-  border-color: #c7640b;
-  color: white;
-  border-radius: 0;
-  margin: 0 auto;
-  margin-top: 5px;
-  display: block;
-  width: 200px;
-  padding: 10px;
-  text-align: center;
-}
-a.learn:visited, a.keep-playing-button {
-  }
-a.learn:hover, a.keep-playing-button:hover, a.learn-low:hover {
-  background-image: linear-gradient(to bottom,#f59a18 0,#f27d13 100%);
-  background-repeat: repeat-x;
-}
-.restart-button, a.retry-button {
-  display: inline-block;
-  background: #1e6477;
-  border-radius: 3px;
-  padding: 0 20px;
-  text-decoration: none;
-  color: #f9f6f2;
-  line-height: 42px;
-  cursor: pointer;
-  display: block;
-  text-align: center;
-  float: right; 
-  margin-top: 7px;
-}
-
-a.retry-button, a.learn-low {
-  width: 150px;
-  height: 40px;
-  padding: 0;
-  border-radius: 0;
-  background-color:black;
-  display: inline-block;
-  margin: 0;
-  line-height: 42px;
-}
-
-a.learn-low {
-  margin-right: 10px;
-}
-
-a.retry-button {
-  margin-left: 10px;
-  float: center;
-}
